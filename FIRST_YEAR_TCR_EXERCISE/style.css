@@ -1,16 +1,27 @@
-/* 
-{
+ 
+body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Goldman", cursive;
+  font-weight: bold;
+  color: whitesmoke;
 }
-*/
+
+section {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #0e0e0f;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:url("/FIRST_YEAR_TCR_EXERCISE/img/hacker.png");
+  }
 
 html {
   font-size: 62.5%;
-}
-body {
-  font-family: "Goldman", cursive;
 }
 
 nav {
@@ -43,11 +54,20 @@ nav img {
 
 .text{
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Goldman", cursive;
+  font-weight: bold;
   list-style-type: circle;
+  color: whitesmoke;
 }
 
 .text2{
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Goldman", cursive;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.footer{
+  background-color: #00a8c7;
+  padding: 25px;
 }
